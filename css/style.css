@@ -247,4 +247,59 @@ main::after {
     border: 1px solid rgba(0, 0, 0, .1);
 }
 
+ /* footer  */
+
+footer .container-footer {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+
+footer .column-footer {
+    width: 25%;
+    float: left;
+    padding: 30px;
+    font-size: 16px;
+}
+
+footer .column-footer h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #504741;
+    margin-bottom: 20px;
+}
+
+footer .column-footer li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+footer .column-footer a {
+    text-decoration: none;
+    color: #666;
+}
+
+footer .column-footer a:hover {
+    color: #99cc33;
+}
+
+
+/* cleafix footer */
+footer .container-footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
